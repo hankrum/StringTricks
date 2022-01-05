@@ -30,7 +30,6 @@ class StringProcessing {
         let mostFrequentCount = 0;
 
         while (buffer.length >= mostFrequentCount) {
-            console.log(`${buffer.length} - ${mostFrequentCount}`);
             const firstLetter = buffer.substr(0, 1);
 
             const regexFirstLetter = new RegExp(firstLetter, 'g');
