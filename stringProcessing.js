@@ -10,9 +10,9 @@ class StringProcessing {
 
     static asterixTriangle(n) {
         const result = [];
-        for (let i=n, j=1; i>0; i--, j += 2){
-            const blanks = ' '.repeat(i-1);
-            const stars = '*'.repeat(j);
+        for (let spaceCounter=n, asterixCounter=1; spaceCounter>0; spaceCounter--, asterixCounter += 2){
+            const blanks = ' '.repeat(spaceCounter-1);
+            const stars = '*'.repeat(asterixCounter);
 
             const currentRow = `${blanks}${stars}`;
 
